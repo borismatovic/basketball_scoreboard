@@ -1,0 +1,56 @@
+/* 
+red #F94F6D
+dark blue #1B244A
+light blue #9AABD8
+almost black #080001
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    /* border: 1px solid red; */
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #F94F6D;
+    background-color: #080001;
+    padding: 25px 10px;
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid #080001;
+}
+
+.highlight {
+    border: 1px solid #F94F6D;
+}
+
+button {
+    font-family: Orbitron, sans-serif;
+    color: #9AABD8;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #9AABD8;
+    border-radius: 6px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid #FFF;
+}
