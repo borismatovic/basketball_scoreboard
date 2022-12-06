@@ -1,4 +1,4 @@
-console.log("Hello from thr console!");
+console.log("Hello from the console!");
 
 let homeScore = document.querySelector("#home-score");
 let guestScore = document.querySelector("#guest-score");
