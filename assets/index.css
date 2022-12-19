@@ -6,51 +6,52 @@ almost black #080001
 */
 
 body {
-    margin: 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #1B244A;
-    color: white;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1b244a;
+  color: white;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    gap: 60px;
-    /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  /* border: 1px solid red; */
 }
 
 h3 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
+  font-family: "Orbitron", sans-serif;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #F94F6D;
-    background-color: #080001;
-    padding: 25px 10px;
-    font-family: 'Orbitron', sans-serif;
-    border: 1px solid #080001;
+  font-size: 2rem;
+  color: #f94f6d;
+  background-color: #080001;
+  padding: 25px 10px;
+  font-family: "Orbitron", sans-serif;
+  border: 1px solid #080001;
 }
 
 .highlight {
-    border: 1px solid #F94F6D;
+  border: 1px solid #f94f6d;
 }
 
 button {
-    font-family: Orbitron, sans-serif;
-    color: #9AABD8;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #9AABD8;
-    border-radius: 6px;
+  font-family: "Orbitron", sans-serif;
+  color: #9aabd8;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #9aabd8;
+  border-radius: 6px;
 }
 
-button:hover{
-    cursor: pointer;
-    border: 1px solid #FFF;
+button:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
 }
